@@ -7,7 +7,7 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title = models.CharField(
+    titleasdfasdf = models.CharField(
         blank=True,
         max_length=150,
     )
