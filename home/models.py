@@ -11,7 +11,7 @@ class CustomText(models.Model):
         blank=True,
         max_length=150,
     )
-    user = models.ForeignKey(
+    profile = models.ForeignKey(
         "users.User",
         null=True,
         blank=True,
