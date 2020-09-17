@@ -56,6 +56,10 @@ export class __Blank extends React.Component {
     >
       <Image
         resizeMode="cover"
+        source={{
+          uri:
+            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/9_H5Z0cDf.jpg"
+        }}
         style={{
           width: "100%",
           height: 200,
